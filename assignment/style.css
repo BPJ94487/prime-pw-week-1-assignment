@@ -1,11 +1,49 @@
-/* Give your page a fun background color */
+body {
+  background: #B0BEC5;
+  /* Give your page a fun background color */
+}
 
-/* Make the header and footer a different color from the background */
+#header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 75px;
+  left: 0;
+  margin-bottom: 10px;
+  background-color: #757575;
+  /* Make the header and footer a different color from the background */
+}
 
-/* Align the h1 containing your name in the center of the header*/
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  height: 100px;
+  background-color: #757575;
+  /* Make the header and footer a different color from the background */
+  font-style: italic;
+  color: white;
+  /* Make your p tag a different color and italic */
+}
 
-/* Make your p tag a different color and italic */
+h1 {
+  text-align: center;
+  /* Align the h1 containing your name in the center of the header*/
+}
 
-/* Put a border around your image */
+.image img {
+  margin: 10px;
+  border-style: solid;
+  /* Put a border around your image */
+  border: 12px solid #555;
+  border-right: 12px solid #999;
+  border-left: 12px solid #999;
+}
 
-/* Change the font-family of your list */
+ul {
+  list-style-type: none;
+  /* Remove bullets to match your mock up site*/
+  font-family: fantasy;
+  /* Change the font-family of your list */
+}
